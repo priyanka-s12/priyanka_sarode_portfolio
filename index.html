@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Priyanka Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm p-3">
+      <div class="container-lg">
+        <a class="navbar-brand logo" href="#">Priyanka Sarode</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tech">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- about -->
+    <section class="hero section-container" id="hero">
+      <div class="container-lg">
+        <div class="d-flex justify-content-between">
+          <div class="col-sm-6">
+            <p class="display-6 fw-bold">Hi 👋🏻</p>
+            <h4>
+              My name is
+              <span class="username display-5">Priyanka Sarode</span>
+              .
+            </h4>
+            <h4>I am lerning web development at NeoG Camp.</h4>
+            <h4>
+              I am a selft-motivated, passionate and curious full stack
+              developer living in Pune.
+            </h4>
+
+            <h4>I love building things with code.</h4>
+            <a
+              class="btn btn-outline-light btn-lg mt-5"
+              href=""
+              target="_blank"
+            >
+              View Resume
+            </a>
+          </div>
+          <div class="col-sm-6 text-center">
+            <img
+              src="./female-avatar.svg"
+              alt="female-avatar"
+              class="img-fluid avatar-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="projects section-container" id="projects">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-2">My Projects</h2>
+        <div class="row">
+          <div class="col-sm col-md-6 col-lg-4 mt-4">
+            <div class="card shadow">
+              <img src="./images/mp1_pic.PNG" />
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="color: #27a0ed">
+                  Early Foods
+                </h5>
+                <p class="card-text">
+                  Early foods is an e-commerce application where you can buy
+                  healthy and millet based products for your kids and mother
+                  such as jaggery cookies, porridges, katori cake mixes, A2 ghee
+                  laddoos.
+                </p>
+                <p>
+                  <span class="stack text-primary">React.js</span>
+                  <span class="stack text-primary">Redux Toolkit</span>
+                  <span class="stack text-primary">Bootstrap</span>
+                </p>
+                <p>
+                  <span class="stack text-primary">Express.js</span>
+                  <span class="stack text-primary">MongoDB</span>
+                  <span class="stack text-primary">Node.js</span>
+                </p>
+                <div class="d-flex">
+                  <a
+                    href="https://github.com/priyanka-s12/early_foods_frontend"
+                    class="project-links btn btn-secondary"
+                    target="_blank"
+                  >
+                    Source Code
+                  </a>
+                  <a
+                    href="https://early-foods-frontend.vercel.app/"
+                    class="project-links btn btn-primary text-light"
+                    target="_blank"
+                  >
+                    View Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-4 mt-4">
+            <div class="card shadow">
+              <img src="./images/mp2_pic.PNG" />
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="color: #27a0ed">
+                  Anvaya CRM Dashboard
+                </h5>
+                <p class="card-text">
+                  Anvaya CRM app focuses on lead management with defined steps
+                  for each lead's lifecycle. We can assign sales agents to leads
+                  and allow users to add comments or updates to each lead.
+                </p>
+                <p>
+                  <span class="stack text-primary">React.js</span>
+                  <span class="stack text-primary">Express.js</span>
+                  <span class="stack text-primary">Chart.js</span>
+                </p>
+                <p>
+                  <span class="stack text-primary">Node.js</span>
+                  <span class="stack text-primary">MongoDB</span>
+                  <span class="stack text-primary">Bootstrap</span>
+                </p>
+                <div>
+                  <a
+                    href="https://github.com/priyanka-s12/dashboard_frontend"
+                    class="project-links btn btn-secondary"
+                    target="_blank"
+                  >
+                    Source Code
+                  </a>
+                  <a
+                    href="https://anvaya-dashboard-frontend.vercel.app/"
+                    class="project-links btn btn-primary"
+                    target="_blank"
+                  >
+                    View Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-4 mt-4">
+            <div class="card shadow">
+              <img src="./images/mp3_pic.PNG" />
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="color: #27a0ed">
+                  workasana
+                </h5>
+                <p class="card-text">
+                  Workasana is a task management and team collaboration tool
+                  where users can create projects, assign tasks to teams and
+                  owners, set deadlines, and organize work using tags.
+                </p>
+                <p>
+                  <span class="stack text-primary">React.js</span>
+                  <span class="stack text-primary">Express.js</span>
+                  <span class="stack text-primary">Chart.js</span>
+                  <span class="stack text-primary">JWT</span>
+                </p>
+                <p>
+                  <span class="stack text-primary">Node.js</span>
+                  <span class="stack text-primary">MongoDB</span>
+                  <span class="stack text-primary">Bootstrap</span>
+                  <span class="stack text-primary">Axios</span>
+                </p>
+
+                <div>
+                  <a
+                    href="https://github.com/priyanka-s12/jwt_auth_ws_frontend"
+                    class="project-links btn btn-secondary"
+                    target="_blank"
+                  >
+                    Source Code
+                  </a>
+                  <a
+                    href="https://jwt-auth-workasana-frontend.vercel.app/"
+                    class="project-links btn btn-primary"
+                    target="_blank"
+                  >
+                    View Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-4 mt-4">
+            <div class="card shadow">
+              <img src="./images/mp4_pic.PNG" />
+
+              <div class="card-body">
+                <h5 class="card-title fw-bold" style="color: #27a0ed">
+                  Meetup app
+                </h5>
+                <p class="card-text">
+                  Meetup app displays list of events in Pune. You can filter
+                  events based on its type (Online/ Offline). You can also
+                  search event by its name. Also on the event details page you
+                  can see comprehensive information about each event.
+                </p>
+                <p>
+                  <span class="stack text-primary">React.js</span>
+                  <span class="stack text-primary">Express.js</span>
+                  <span class="stack text-primary">Bootstrap</span>
+                </p>
+                <p>
+                  <span class="stack text-primary">Node.js</span>
+                  <span class="stack text-primary">MongoDB</span>
+                </p>
+
+                <div>
+                  <a
+                    class="project-links btn btn-secondary"
+                    href="https://github.com/priyanka-s12/react_meetup_frontend"
+                    target="_blank"
+                  >
+                    Source Code
+                  </a>
+                  <a
+                    href="https://meetup-frontend-psi.vercel.app/"
+                    class="project-links btn btn-primary"
+                    target="_blank"
+                  >
+                    View Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies -->
+    <section class="tech section-container" id="tech">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">Technologies</h2>
+        <div class="row">
+          <div class="col-sm col-md-4 border border-primary text-center p-3">
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>Javascript</p>
+            <p>React.js</p>
+          </div>
+          <div class="col-sm col-md-4 border border-primary text-center p-3">
+            <p>Bootstrap</p>
+            <p>Node.js/p></p>
+            <p>Express.js</p>
+            <p>MongoDB</p>
+          </div>
+          <div class="col-sm col-md-4 border border-primary text-center p-3">
+            <p>Redux Toolkit</p>
+            <p>Github</p>
+            <p>Git</p>
+            <p>Context API</p>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="grid">
+            <div
+              class="g-col-6 g-col-md-4 p-3 m-2 border border-primary text-center"
+            >
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>Javascript</p>
+              <p>React.js</p>
+            </div>
+            <div
+              class="g-col-6 g-col-md-4 p-3 m-2 border border-primary text-center"
+            >
+              <p>Bootstrap</p>
+              <p>Node.js/p></p>
+              <p>Express.js</p>
+              <p>MongoDB</p>
+            </div>
+            <div
+              class="g-col-6 g-col-md-4 p-3 m-2 border border-primary text-center"
+            >
+              <p>Redux Toolkit</p>
+              <p>Github</p>
+              <p>Git</p>
+              <p>Context API</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- blogs -->
+    <section class="blog section-container" id="blog">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-2">My Blogs</h2>
+        <div class="row">
+          <div class="col-sm col-md-6 col-lg-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold mb-3" style="color: #27a0ed">
+                  async and defer in script tag
+                </h5>
+                <p class="card-text">
+                  This question asked in the interview to test whether you know
+                  different JavaScript files loading strategies or not and their
+                  behavior.
+                </p>
+                <a
+                  href="https://dev.to/priyanka_sarode_694e69474/async-and-defer-in-tag-2h9e"
+                  class="project-links btn btn-primary text-light mt-5"
+                  target="_blank"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold mb-3" style="color: #27a0ed">
+                  Web Storage API (localStorage, sessionStorage) & cookie
+                </h5>
+                <p class="card-text">
+                  For client and server communication HTTP protocol is used. But
+                  this protocol is stateless means it doesn't track any response
+                  by the server or request by the client.
+                </p>
+                <a
+                  href="https://dev.to/priyanka_sarode_694e69474/web-storage-api-localstorage-sessionstorage-cookie-2i8p"
+                  class="project-links btn btn-primary text-light"
+                  target="_blank"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-lg-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title fw-bold mb-3" style="color: #27a0ed">
+                  What is Javascript?
+                </h5>
+                <p class="card-text">
+                  JavaScript is one of the widely used programming languages
+                  across all domains, such as web, mobile, game development etc.
+                  till date now.
+                </p>
+                <a
+                  href="https://dev.to/priyanka_sarode_694e69474/what-is-javascript-23gi"
+                  class="project-links btn btn-primary text-light mt-3"
+                  target="_blank"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="display-5 fw-bold mb-4">Contact</h2>
+        <div class="row">
+          <div class="d-flex links">
+            <a
+              class="link"
+              href="https://github.com/priyanka-s12"
+              target="_blank"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              class="link"
+              target="_blank"
+              href="https://www.linkedin.com/in/priyanka-sarode1/"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="link" href="" target="">
+              <i class="bi bi-file-earmark-person"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center p-3 bg-body-tertiary">
+      <div>Made by Priyanka with &hearts;</div>
+    </footer>
+  </body>
+</html>

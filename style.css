@@ -1,0 +1,92 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.logo,
+.username {
+  background: linear-gradient(90deg, #13b0f5, #e70faa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #212529;
+}
+
+.section-container {
+  padding-top: 3rem;
+  min-height: 90vh;
+}
+
+section [class^='container'] {
+  padding: 2rem 1rem;
+}
+@media screen and (min-width: 1024px) {
+  section [class^='container'] {
+    padding: 4rem;
+  }
+  nav [class^='container'] {
+    padding: 0 4rem;
+  }
+}
+
+.avatar-img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 6px;
+  background: linear-gradient(90deg, #13b0f5, #e70faa 100%);
+}
+
+.projects .card {
+  transition: transform 0.5s ease-in;
+  transform: scale(1);
+}
+
+.projects .card:hover {
+  transform: scale(1.05);
+}
+
+.project-links {
+  display: inline-flex;
+  margin: 1rem 2rem 1rem 0;
+}
+
+.project-links img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.stack {
+  padding: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.link {
+  font-size: 2.5rem;
+  margin-right: 2rem;
+}
+
+.link:hover {
+  color: blueviolet;
+}
+
+@media screen and (max-width: 576px) {
+  section.hero {
+    padding-top: 1rem;
+  }
+
+  .hero div div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatar-img {
+    margin-top: 2rem;
+    height: 200px;
+    width: 200px;
+  }
+}
